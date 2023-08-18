@@ -1,0 +1,108 @@
+1).   Explain variables?
+ans=>  A JavaScript variable is simply a name of storage location. There are two types of variables in JavaScript : local variable and global variablwhat e. js in three types of variables                       var = reassiment and redeclaration,
+let = reassiment,
+conts = the blockscope
+
+2).   what are the different datatype in js?
+ans=>  There are two types of data types in JavaScript.
+
+Primitive data type
+Non-primitive (reference) data type
+    
+primeactive ==> String,Boolean,Undefined,Null,Number,syblom,biginet
+nonpremative ==> Object,Array
+
+3).Explain hoasting?
+ans=> 
+
+4).different between double?? & ???
+ans=> 
+
+5). what is global variable?
+A global variable in javascript is a variable having global scope, meaning, it can be accessed from anywhere inside the programme.
+
+6). what is the cliant side and server side?
+So client side scripting runs code like JavaScript on your phone or desktop while server-side scripting runs on the back-end server. That way, it can deliver dynamic content to web pages in response to the client device.
+
+7).what is lexican enviroment?
+A lexical environment is a data structure that holds identifier-variable mapping. Lexical in general means in hierarchy or in a sequence.
+
+8). what are the type of error in js?
+There are 7 types of JavaScript errors: Syntax error, Reference Error, Type Error, Evaluation Error, RangeError, URI Error and Internal Error.
+
+9). create a example with loop
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="box"></p>
+
+<script>
+let text = "";
+
+for (let i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
+}
+
+document.getElementById("box").innerHTML = text;
+</script>
+
+</body>
+</html>
+
+10). what is dom? example & briffing?
+DOM stands for Document Object Model.We can also add events to these elements to make our page more dynamic.
+
+11).what is different between scripting & programing
+Scripting Language ==> They are used to create dynamic web applications.
+                       Scripting languages contain different libraries.
+                       Example -: Bash, Ruby, Python, JavaScript etc.
+			It has low maintenance cost.
+
+Programming Language ==> Programming languages are of three types -:
+                         low-level Programming language
+                         Middle-level Programming language
+                         High-level Programming language
+                        Programming languages are used to write computer programs.
+			Example -: C++, Java, PHP High-level etc.
+			It has high maintenance cost.
+12). dynamic object
+ans.=>  allow changing, accessing, or creating values and object properties at runtime for flexibility and adaptability.
+
+13) what is js in briefing?
+Ans:--->   
+
+14).     Different Between ==&===?
+Ans:---> (==)and (===) are Comparison Operators
+
+15).     one Arithmetical operator example?
+Ans:---> let a=5
+         let b=7
+         console.log(a+b);
+
+16).     Dynamic Example of boolian operator?
+Ans:---> let a=25
+         let b=26
+         console.log(a!=b)
+
+17).     How many keywords in js? and their example
+Ans:--->JavaScript keywords are reserved words, which we cannot use to name the variables or functions.
+        There are total of 63 keywords which JavaSscript provides to the programmers.
+
+18).     Different object and array>
+Ans:---> object can show key and value.
+         Arry can show index.
+
+19).    Type of funcation in Js?
+Ans:---> (1)  Function Declaration
+         (2)  Function Expression
+         (3)  Arrow Function
+
+20).    Adding CSS in js(example)?
+Ans:--->  <body>
+            <p id="p1">Hello World!</p>
+               <script>
+                  document.getElementById("p1").style.color = "blue";
+               </script>
+           </body>
